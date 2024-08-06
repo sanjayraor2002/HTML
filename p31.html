@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Marquee Tag</title>
+    </head>
+    <body>
+        <center>
+            <h1>Marquee Tag</h1>
+            <p>The marquee Html Element is used to insert a scrolling area of text</p>
+        </center>
+        <hr>
+    <marquee>The Marquee Tag..!</marquee>
+    <marquee><a href="p30.html" target="_self">The Marque Tag..!</a></marquee>
+    <marquee bgcolor="pink">The Marquee Tag</marquee>
+    <br><hr><br>
+    <h2>Marquee Behaviour</h2>
+    <marquee behavior="alternate"  bgcolor="skyblue" direction="">Be Practical</marquee>
+    <marquee behavior="scroll"  bgcolor="skyblue" direction="">Be Practical</marquee>
+
+    <marquee behavior="slide"  bgcolor="skyblue" direction="">Be Practical</marquee>
+
+    <br><hr><br>
+    <h2>Marquee Tag direction</h2>
+    <marquee   bgcolor="lightblue" direction="right">Be Practical</marquee><br><br>
+    <marquee   bgcolor="lightblue" direction="left">Be Practical</marquee><br><br>
+    <marquee   bgcolor="lightblue" direction="up" height="100">Be Practical</marquee><br><br>
+    <marquee  bgcolor="lightblue" direction="down" height="100" align="center">Be Practical</marquee>
+
+    <br><hr><br>
+    <h2>Marquee Scroll-Amount</h2>
+    <marquee   bgcolor="Red" scrollamount="1">Be Practical</marquee><br><br>
+    <marquee   bgcolor="Red" scrollamount="20" id="test">Be Practical</marquee><br><br>
+    <marquee   bgcolor="Red" scrollamount="10" >Be Practical</marquee><br><br>
+    <marquee  bgcolor="Red" scrollamount="5">Be Practical</marquee>
+
+    <!-- <h2>Marquee Javascript Code</h2> -->
+        <script>
+            document.getElementById("test").onmouseenter = function(){
+                document.getElementById('test').stop();
+            }
+            document.getElementById("test").onmouseleave=function(){
+                document.getElementById('test').start();
+
+            }
+        </script>
+    </body>
+</html>

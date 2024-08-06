@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+        <center>
+            <h1>HTML FORMS TAG..!</h1>
+        
+        </center>
+        <hr>
+        <h2>HTML COMPONENTS</h2>
+        <form autocomplete="off">
+        <fieldset>
+            <legend>First name</legend>
+            <label for="">Enter First Name</label>
+            <input type="text" placeholder="First Name" name="firstname" id="firstname"  minlength="5" max="20" value="hi" readonly>
+        </fieldset>
+
+        <fieldset>
+            <legend>middle name</legend>
+            <label for="">Enter Middle Name</label>
+            <input type="text" placeholder="Middle Name" name="middlename" id="middlename" >
+        </fieldset>
+            
+        <fieldset>
+            <legend>last name</legend>
+             <label for="">Enter Last Name</label>
+            <input type="text" placeholder="Last Name" name="lastname" id="lastname" >
+        </fieldset>
+
+        <fieldset>
+            <legend>Buttons</legend>
+            <button type="submit">SUBMIT</button>
+            <button type="button">CANCEL</button>
+            <button type="reset">RESET</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Button</legend>
+            <label for="">Input Type is Button</label>
+            <input type="button" name="Button" id="Button" placeholder="Button" >
+        </fieldset>
+
+        <fieldset>
+            <legend>CheckBox</legend>
+            <p>Input type is checkbox ,is used for select more than one options.</p>
+
+            <h3>Languages</h3>
+            <label for="">kannada</label>
+            <input type="checkbox" value="kannada" name="kannada" id="kannada" checked readonly>
+
+            <label for="">English</label>
+            <input type="checkbox" value="English" name="English" id="English" >
+
+            <label for="">Hindi</label>
+            <input type="checkbox" value="Hindi" name="Hindi" id="Hindi" >
+        </fieldset>
+
+        <fieldset>
+            <legend>Colors</legend>
+            <label for="">Colors</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>Date</legend>
+            <label for="">Enter Date: </label>
+            <input type="date" value="date" name="date" id="date">
+        </fieldset>
+        <fieldset>
+            <legend>Date and Time</legend>
+            <label for="">Enter Date and time: </label>
+            <input type="datetime" value="date" name="datetime" id="date">
+        </fieldset>
+        <!-- <button type="submit">SUBMIT</button> -->
+        <fieldset>
+            <legend>Date and Time local</legend>
+            <label for="">Enter Date and time local: </label>
+            <input type="datetime-local" value="date" name="datetimelocal" id="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Email</legend>
+            <label for="">enter email:</label>
+            <input type="email"  name="email" id="email">
+        </fieldset>
+        <fieldset>
+            <legend>Files</legend>
+            <label for="">enter file:</label>
+            <input type="file" value="file" name="file" id="file">
+        </fieldset>
+        <fieldset>
+            <legend>Hidden</legend>
+            <label for="Input type is hidden"></label>
+            <input type="hidden" name="hidden" id="hidden" name="hidden">
+        </fieldset>
+
+        <fieldset>
+            <legend>Images</legend>
+            <label for=""></label>
+            <input type="image" src="Assets/IMAGES/img1.jpg" height="200" width="200" name="image" id="image">
+        </fieldset>
+        <fieldset>
+            <legend>Month</legend>
+            <label for="">Enter Month</label>
+            <input type="month" name="month" id="month">
+        </fieldset>
+        <fieldset>
+            <legend>Number</legend>
+            <input type="number" name="number" id="number">
+        </fieldset>
+        <!-- <input type="submit" name="submit" id="submit" value="submit"> -->
+        <fieldset>
+            <legend>PASSWORD</legend>
+            <label for="">Input type is password</label>
+            <input type="password" placeholder="password" name="password" id="password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio Button</legend>
+            <label for="">Male</label>
+            <input type="radio" value="Male" id="Male" name="gender">
+
+            <label for="">FeMale</label>
+            <input type="radio" value="feMale" id="female" name="gender">
+            <label for="">trans</label>
+            <input type="radio" value="trans" id="trans" name="gender">
+        </fieldset>
+<!-- ---------------------------------6/8/24-------------------------------------------------------------------- -->
+    <fieldset>
+            <legend>Range: </legend>
+            <label for="">Input Type is Range: </label>
+            <input type="range" name="range" id="range" min="1" max="100" value="50">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Reset</legend>
+        <label for="">Input Type is Reset</label>
+        <input type="reset" value="reset" >
+    </fieldset>
+
+    <fieldset>
+        <legend>Search</legend>
+        <label for="">Input type is Search</label>
+        <input type="search" placeholder="search here" name="search" value="s" required readonly>
+    </fieldset>
+
+    <fieldset>
+        <legend>Submit</legend>
+        <label for="">Input Type is Submit</label>
+        <input type="submit" value="submit">
+    </fieldset>
+
+    <fieldset>
+        <legend>Tel</legend>
+        <label for="">Input type is Tel</label>
+        <input type="tel" placeholder="telephone" name="tel" id="tel">
+    </fieldset>
+
+    <fieldset>
+        <legend>Time</legend>
+        <label for="">Input type is Time</label>
+        <input type="time" placeholder="time" name="time" id="time">
+    </fieldset>
+
+    <fieldset>
+        <legend>Url</legend>
+        <label for="">Input Type is URL</label>
+        <input type="url" placeholder="search" name="search" id="search">
+    </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+        <p>Textarea is used for to write local ,permanent address and feedback purpose.</p>
+        <label for="">Address:</label>
+        <textarea name="Address" id="Address" cols="50" rows="10" placeholder="Enter Text"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select Option</legend>
+        <p>This is a dropdown and is used to select only one option </p>
+        <label for="">select Qualification</label>
+        <select name="Qualification" id="Qualification">
+            <option value="" selected disabled>----------select Qualification----------</option>
+            <option value="">10th</option>
+            <option value="">PUC</option>
+            <option value="">Degree</option>
+            <option value="master" selected>ms</option>
+            <option value="pg"></option>
+            <optgroup>
+                <ol>
+                    <option value=""><li>BE in ISE</li></option>
+                     <option value=""><li>BE in ECE</li></option>
+                    </ol>
+
+            </optgroup>
+    </select>
+    </fieldset>
+</form>
+    </body>
+</html>
